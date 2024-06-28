@@ -2,9 +2,11 @@
     width: 100%;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
+    background-color: #F5F4F0;
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -27,6 +29,30 @@ h3 {
     font-size: 28px;
 }
 
+.accent-blue {
+    font-weight: 800;
+    font-size: 16px;
+    color: #0C51A7;
+}
+
+.accent-orange {
+    font-weight: 800;
+    font-size: 16px;
+    color: #E95E10;
+}
+
+.accent-pink {
+    font-weight: 800;
+    font-size: 16px;
+    color: #E5245E;
+}
+
+.accent-purple {
+    font-weight: 800;
+    font-size: 16px;
+    color: #591B98;
+}
+
 .headline {
     color: #E1624F;    
     text-transform: uppercase;
@@ -37,4 +63,25 @@ h3 {
 .subtitle {
     font-style: italic;
     font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+    max-width: 1120px;
+    border-radius: 28px;
+}
+
+#description-image img {
+    width: 100%;
+    max-width: 1120px;
+    max-height: 660px;
 }
